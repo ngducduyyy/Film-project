@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Movie Ticket Sales</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="css/slick.css" />
@@ -16,14 +17,18 @@
   <link rel="stylesheet" href="css/magnific-popup.css" />
   <link rel="stylesheet" href="css/select2.min.css" />
   <link rel="stylesheet" href="css/select2-bootstrap4.min.css" />
-
   <link rel="stylesheet" href="css/slick-animation.css" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/website-main/">
+  <link rel="stylesheet" href="/trailer-plugin/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
   <header id="main-header">
-    <div class="main-header">
+    <div class="main-header ">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12">
@@ -138,9 +143,9 @@
                       </li>
                       <li>
                         <a href="/HTML/Film-project-master/Login form/index.html" class="btn"><button>
-                          Login
-                        </button></a>
-                      
+                            Login
+                          </button></a>
+
                       </li>
                     </ul>
                   </div>
@@ -203,12 +208,13 @@
                         </div>
                       </div>
                     </div>
-                    <li>
-                      <!-- <a href="/HTML/Film-project-master/Login form/index.html" class="btnlg"><button>
+                  <li>
+                    <!-- <a href="/HTML/Film-project-master/Login form/index.html" class="btnlg"><button>
                         Login
                       </button></a> -->
-                      <a href="/Login form/index.html"><button type="button" class="btn btn-danger" style="margin-left: 10px;">Login</button></a>
-                    </li>
+                    <a href="/Login form/index.html"><button type="button" class="btn btn-danger"
+                        style="margin-left: 10px;">Login</button></a>
+                  </li>
                   </li>
                 </ul>
               </div>
@@ -275,18 +281,21 @@
                   </div>
                 </div>
                 <div class="d-flex align-items-center r-mb-23 mt-4" data-animation-in="fadeInUp" data-delay-in="1.2">
-                  <a href="/Nerflix-website-main/Ticket.html" class="btn btn-hover iq-button"><i class="fa fa-play mr-3"></i>Book Now</a>
+                  <a href="/website-main/Ticket.html" class="btn btn-hover iq-button"><i
+                      class="fa fa-play mr-3"></i>Book Now</a>
                   <a href="#" class="btn btn-link">More Details</a>
                 </div>
               </div>
             </div>
             <div class="col-xl-5 col-lg-12 col-md-12 trailor-video">
-              <a href="/Nerflix-website-main/video/Avengers - Official Trailer-(1080p).mp4" class="video-open playbtn">
-                <img src="images/play.png" class="play" alt="" />
-                <span class="w-trailor">Watch Trailer</span>
-              </a>
+              <span class="btn-plugin" class="w-trailor" id="watch-trailer"><i class="fa-solid fa-play fa-beat"></i>
+                Watch Trailer</span>
             </div>
           </div>
+        </div>
+        <div class="trailer active">
+          <video src="/website-main/video/Avengers - Official Trailer-(1080p).mp4" controls></video>
+          <i class="fa-solid fa-circle-xmark close-btn"></i>
         </div>
       </div>
       <div class="slide slick-bg s-bg-2">
@@ -322,9 +331,9 @@
                   </div>
                 </div>
                 <p data-animation-in="fadeInUp">
-                  A gangster family epic set in 1990s England, centering on a 
-                  gang who sew razor blades in the peaks of their caps, 
-                  and their fierce boss Tommy Shelby.    
+                  A gangster family epic set in 1990s England, centering on a
+                  gang who sew razor blades in the peaks of their caps,
+                  and their fierce boss Tommy Shelby.
                 </p>
                 <div class="trending-list" data-animation-in="fadeInUp" data-delay-in="1.2">
                   <div class="text-primary title starring">
@@ -340,14 +349,16 @@
                   </div>
                 </div>
                 <div class="d-flex align-items-center r-mb-23 mt-4" data-animation-in="fadeInUp" data-delay-in="1.2">
-                  <a href="/Nerflix-website-main/Ticket.html" class="btn btn-hover iq-button"><i class="fa fa-play mr-3"></i>Book Now</a>
+                  <a href="/website-main/Ticket.html" class="btn btn-hover iq-button"><i
+                      class="fa fa-play mr-3"></i>Book Now</a>
                   <a href="#" class="btn btn-link">More Details</a>
                 </div>
               </div>
             </div>
             <div class="col-xl-5 col-lg-12 col-md-12 trailor-video">
-              <a href="/Nerflix-website-main/video/Peaky Blinders Trailer (Season 1)-(1080p).mp4" class="video-open playbtn">
-                <img src="images/play.png" class="play" alt="" />
+              <a href="/website-main/video/Peaky Blinders Trailer (Season 1)-(1080p).mp4"
+                class="video-open playbtn">
+                <!-- <img src="images/play.png" class="play" alt="" /> -->
                 <span class="w-trailor">Watch Trailer</span>
               </a>
             </div>
@@ -404,14 +415,16 @@
                   </div>
                 </div>
                 <div class="d-flex align-items-center r-mb-23 mt-4" data-animation-in="fadeInUp" data-delay-in="1.2">
-                  <a href="/Nerflix-website-main/Ticket.html" class="btn btn-hover iq-button"><i class="fa fa-play mr-3"></i>Book Now</a>
+                  <a href="/website-main/Ticket.html" class="btn btn-hover iq-button"><i
+                      class="fa fa-play mr-3"></i>Book Now</a>
                   <a href="#" class="btn btn-link">More Details</a>
                 </div>
               </div>
             </div>
             <div class="col-xl-5 col-lg-12 col-md-12 trailor-video">
-              <a href="/Nerflix-website-main/video/The Conjuring - Official Main Trailer [HD]-(1080p).mp4" class="video-open playbtn">
-                <img src="images/play.png" class="play" alt="" />
+              <a href="/website-main/video/The Conjuring - Official Main Trailer [HD]-(1080p).mp4"
+                class="video-open playbtn">
+                <!-- <img src="images/play.png" class="play" alt="" /> -->
                 <span class="w-trailor">Watch Trailer</span>
               </a>
             </div>
@@ -452,9 +465,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -497,9 +510,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -542,9 +555,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -587,9 +600,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -632,9 +645,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -697,9 +710,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -742,9 +755,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -787,9 +800,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -832,9 +845,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -877,9 +890,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -979,7 +992,7 @@
                           </div>
                         </div>
                         <div class="hover-buttons">
-                          <a href="/Nerflix-website-main/Ticket.html" class="btn btn-hover" tabindex="0">
+                          <a href="/website-main/Ticket.html" class="btn btn-hover" tabindex="0">
                             <i class="fa fa-play mr-1" aria-hidden="true"></i>
                             Book Now
                           </a>
@@ -1000,7 +1013,7 @@
                           </div>
                         </div>
                         <div class="hover-buttons">
-                          <a href="/Nerflix-website-main/Ticket.html" class="btn btn-hover" tabindex="0">
+                          <a href="/website-main/Ticket.html" class="btn btn-hover" tabindex="0">
                             <i class="fa fa-play mr-1" aria-hidden="true"></i>
                             Book Now
                           </a>
@@ -1021,7 +1034,7 @@
                           </div>
                         </div>
                         <div class="hover-buttons">
-                          <a href="/Nerflix-website-main/Ticket.html" class="btn btn-hover" tabindex="0">
+                          <a href="/website-main/Ticket.html" class="btn btn-hover" tabindex="0">
                             <i class="fa fa-play mr-1" aria-hidden="true"></i>
                             Book Now
                           </a>
@@ -1042,7 +1055,7 @@
                           </div>
                         </div>
                         <div class="hover-buttons">
-                          <a href="/Nerflix-website-main/Ticket.html" class="btn btn-hover" tabindex="0">
+                          <a href="/website-main/Ticket.html" class="btn btn-hover" tabindex="0">
                             <i class="fa fa-play mr-1" aria-hidden="true"></i>
                             Book Now
                           </a>
@@ -1063,7 +1076,7 @@
                           </div>
                         </div>
                         <div class="hover-buttons">
-                          <a href="/Nerflix-website-main/Ticket.html" class="btn btn-hover" tabindex="0">
+                          <a href="/website-main/Ticket.html" class="btn btn-hover" tabindex="0">
                             <i class="fa fa-play mr-1" aria-hidden="true"></i>
                             Book Now
                           </a>
@@ -1084,7 +1097,7 @@
                           </div>
                         </div>
                         <div class="hover-buttons">
-                          <a href="/Nerflix-website-main/Ticket.html" class="btn btn-hover" tabindex="0">
+                          <a href="/website-main/Ticket.html" class="btn btn-hover" tabindex="0">
                             <i class="fa fa-play mr-1" aria-hidden="true"></i>
                             Book Now
                           </a>
@@ -1170,9 +1183,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -1215,9 +1228,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -1260,9 +1273,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -1305,9 +1318,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -1381,7 +1394,7 @@
                 protecting the world he feels is his home.
               </p>
               <div class="parallax-buttons">
-                <a href="/Nerflix-website-main/Ticket.html" class="btn btn-hover">Book Now</a>
+                <a href="/website-main/Ticket.html" class="btn btn-hover">Book Now</a>
                 <a href="#" class="btn btn-link">More Details</a>
               </div>
             </div>
@@ -1455,24 +1468,30 @@
                   <div class="tranding-block position-relative" style="background-image: url(images/trending/01.jpg);">
                     <div class="trending-custom-tab">
                       <div class="tab-title-info position-relative">
-                        <ul class="trending-pills d-flex nav nav-pills justify-content-center align-items-center text-center" role="tablist">
+                        <ul
+                          class="trending-pills d-flex nav nav-pills justify-content-center align-items-center text-center"
+                          role="tablist">
                           <li class="nav-item">
-                            <a href="#trending-data1" class="nav-link active show" data-toggle="pill" role="tab" aria-selected="true">
+                            <a href="#trending-data1" class="nav-link active show" data-toggle="pill" role="tab"
+                              aria-selected="true">
                               Overview
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data2" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data2" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Thumbnail
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data3" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data3" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Trailers
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data4" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data4" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Similiar Like This
                             </a>
                           </li>
@@ -1502,13 +1521,13 @@
                             </p>
                             <div class="p-btns">
                               <div class="d-flex align-items-center p-0">
-                                <a href="/Nerflix-website-main/Ticket.html" class="btn btn-hover mr-2" tabindex="0">
+                                <a href="/website-main/Ticket.html" class="btn btn-hover mr-2" tabindex="0">
                                   <i class="fa fa-play mr-2"></i>
                                   Book Now
                                 </a>
                                 <a href="#" class="btn btn-link" tabindex="0">
                                   <i class="fa fa-plus pr-2"></i>
-                                  My List 
+                                  My List
                                 </a>
                               </div>
                             </div>
@@ -1526,281 +1545,282 @@
                             </a>
                             <h1 class="trending-text big-title text-uppercase">the Crown</h1>
                             <div class="d-flex align-items-center text-white text-detail mb-4">
-                              
 
-                            <div class="episodes-contens mt-4">
-                              <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
-                                <div class="e-item">
-                                  <div class="block-image position-relative">
-                                    <a href="#">
-                                      <img src="images/episodes/ce1.jpg" class="img-fluid" alt="">
-                                    </a>
-                                    <div class="episode-play-info">
-                                      <div class="episode-play">
-                                        <a href="#" tabindex="0">
-                                          <i class="fa fa-play"></i>
-                                        </a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="episodes-description text-body">
-                                  </div>
-                                </div>
-                                <div class="e-item">
-                                  <div class="block-image position-relative">
-                                    <a href="#">
-                                      <img src="images/episodes/ce2.jpg" class="img-fluid" alt="">
-                                    </a>
-                                    <div class="episode-play-info">
-                                      <div class="episode-play">
-                                        <a href="#" tabindex="0">
-                                          <i class="fa fa-play"></i>
-                                        </a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="episodes-description text-body">
-                                  </div>
-                                </div>
-                                <div class="e-item">
-                                  <div class="block-image position-relative">
-                                    <a href="#">
-                                      <img src="images/episodes/ce3.jpg" class="img-fluid" alt="">
-                                    </a>
-                                    <div class="episode-play-info">
-                                      <div class="episode-play">
-                                        <a href="#" tabindex="0">
-                                          <i class="fa fa-play"></i>
-                                        </a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="episodes-description text-body">
-                                  </div>
-                                </div>
-                                <div class="e-item">
-                                  <div class="block-image position-relative">
-                                    <a href="#">
-                                      <img src="images/episodes/ce4.jpg" class="img-fluid" alt="">
-                                    </a>
-                                    <div class="episode-play-info">
-                                      <div class="episode-play">
-                                        <a href="#" tabindex="0">
-                                          <i class="fa fa-play"></i>
-                                        </a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="episodes-description text-body">
-                                  </div>
-                                </div>
-                                <div class="e-item">
-                                  <div class="block-image position-relative">
-                                    <a href="#">
-                                      <img src="images/episodes/ce5.jpg" class="img-fluid" alt="">
-                                    </a>
-                                    <div class="episode-play-info">
-                                      <div class="episode-play">
-                                        <a href="#" tabindex="0">
-                                          <i class="fa fa-play"></i>
-                                        </a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="episodes-description text-body">
-                                  </div>
-                                </div>
 
+                              <div class="episodes-contens mt-4">
+                                <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                                  <div class="e-item">
+                                    <div class="block-image position-relative">
+                                      <a href="#">
+                                        <img src="images/episodes/ce1.jpg" class="img-fluid" alt="">
+                                      </a>
+                                      <div class="episode-play-info">
+                                        <div class="episode-play">
+                                          <a href="#" tabindex="0">
+                                            <i class="fa fa-play"></i>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="episodes-description text-body">
+                                    </div>
+                                  </div>
+                                  <div class="e-item">
+                                    <div class="block-image position-relative">
+                                      <a href="#">
+                                        <img src="images/episodes/ce2.jpg" class="img-fluid" alt="">
+                                      </a>
+                                      <div class="episode-play-info">
+                                        <div class="episode-play">
+                                          <a href="#" tabindex="0">
+                                            <i class="fa fa-play"></i>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="episodes-description text-body">
+                                    </div>
+                                  </div>
+                                  <div class="e-item">
+                                    <div class="block-image position-relative">
+                                      <a href="#">
+                                        <img src="images/episodes/ce3.jpg" class="img-fluid" alt="">
+                                      </a>
+                                      <div class="episode-play-info">
+                                        <div class="episode-play">
+                                          <a href="#" tabindex="0">
+                                            <i class="fa fa-play"></i>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="episodes-description text-body">
+                                    </div>
+                                  </div>
+                                  <div class="e-item">
+                                    <div class="block-image position-relative">
+                                      <a href="#">
+                                        <img src="images/episodes/ce4.jpg" class="img-fluid" alt="">
+                                      </a>
+                                      <div class="episode-play-info">
+                                        <div class="episode-play">
+                                          <a href="#" tabindex="0">
+                                            <i class="fa fa-play"></i>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="episodes-description text-body">
+                                    </div>
+                                  </div>
+                                  <div class="e-item">
+                                    <div class="block-image position-relative">
+                                      <a href="#">
+                                        <img src="images/episodes/ce5.jpg" class="img-fluid" alt="">
+                                      </a>
+                                      <div class="episode-play-info">
+                                        <div class="episode-play">
+                                          <a href="#" tabindex="0">
+                                            <i class="fa fa-play"></i>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="episodes-description text-body">
+                                    </div>
+                                  </div>
+
+                                </div>
                               </div>
-                            </div>
 
-                          </div>
-                        </div>
-
-                        <div id="trending-data3" class="overlay-tab tab-pane fade">
-                          <div class="trending-info align-items-center w-100 animated fadeInUp">
-                            <a href="#" tabindex="0">
-                              <div class="channel-logo">
-                                <img src="images/logo.png" class="c-logo" alt="">
-                              </div>
-                            </a>
-                            <h1 class="trending-text big-title text-uppercase">the crown</h1>
-                            <div class="episodes-contens mt-4">
-                              <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
-                                <div class="e-item">
-                                  <div class="block-image position-relative">
-                                    <a href="#">
-                                      <img src="images/episodes/ce1.jpg" class="img-fluid" alt="">
-                                    </a>
-                                    <div class="episode-play-info">
-                                      <div class="episode-play">
-                                        <a href="#" tabindex="0">
-                                          <i class="fa fa-play"></i>
-                                        </a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="episodes-description text-body">
-                                  </div>
-                                </div>
-                                <div class="e-item">
-                                  <div class="block-image position-relative">
-                                    <a href="#">
-                                      <img src="images/episodes/ce2.jpg" class="img-fluid" alt="">
-                                    </a>
-                                    <div class="episode-play-info">
-                                      <div class="episode-play">
-                                        <a href="#" tabindex="0">
-                                          <i class="fa fa-play"></i>
-                                        </a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="episodes-description text-body">
-                                  </div>
-                                </div>
-                                <div class="e-item">
-                                  <div class="block-image position-relative">
-                                    <a href="#">
-                                      <img src="images/episodes/ce3.jpg" class="img-fluid" alt="">
-                                    </a>
-                                    <div class="episode-play-info">
-                                      <div class="episode-play">
-                                        <a href="#" tabindex="0">
-                                          <i class="fa fa-play"></i>
-                                        </a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="episodes-description text-body">
-                                  </div>
-                                </div>
-                                <div class="e-item">
-                                  <div class="block-image position-relative">
-                                    <a href="#">
-                                      <img src="images/episodes/ce4.jpg" class="img-fluid" alt="">
-                                    </a>
-                                    <div class="episode-play-info">
-                                      <div class="episode-play">
-                                        <a href="#" tabindex="0">
-                                          <i class="fa fa-play"></i>
-                                        </a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="episodes-description text-body">
-                                  </div>
-                                </div>
-                                <div class="e-item">
-                                  <div class="block-image position-relative">
-                                    <a href="#">
-                                      <img src="images/episodes/ce5.jpg" class="img-fluid" alt="">
-                                    </a>
-                                    <div class="episode-play-info">
-                                      <div class="episode-play">
-                                        <a href="#" tabindex="0">
-                                          <i class="fa fa-play"></i>
-                                        </a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="episodes-description text-body">
-                                  </div>
-                                </div>
-
-                              </div>
                             </div>
                           </div>
-                        </div>
 
-                        <div id="trending-data4" class="overlay-tab tab-pane fade">
-                          <div class="trending-info align-items-center w-100 animated fadeInUp">
-                            <a href="#" tabindex="0">
-                              <div class="channel-logo">
-                                <img src="images/logo.png" class="c-logo" alt="">
+                          <div id="trending-data3" class="overlay-tab tab-pane fade">
+                            <div class="trending-info align-items-center w-100 animated fadeInUp">
+                              <a href="#" tabindex="0">
+                                <div class="channel-logo">
+                                  <img src="images/logo.png" class="c-logo" alt="">
+                                </div>
+                              </a>
+                              <h1 class="trending-text big-title text-uppercase">the crown</h1>
+                              <div class="episodes-contens mt-4">
+                                <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                                  <div class="e-item">
+                                    <div class="block-image position-relative">
+                                      <a href="#">
+                                        <img src="images/episodes/ce1.jpg" class="img-fluid" alt="">
+                                      </a>
+                                      <div class="episode-play-info">
+                                        <div class="episode-play">
+                                          <a href="#" tabindex="0">
+                                            <i class="fa fa-play"></i>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="episodes-description text-body">
+                                    </div>
+                                  </div>
+                                  <div class="e-item">
+                                    <div class="block-image position-relative">
+                                      <a href="#">
+                                        <img src="images/episodes/ce2.jpg" class="img-fluid" alt="">
+                                      </a>
+                                      <div class="episode-play-info">
+                                        <div class="episode-play">
+                                          <a href="#" tabindex="0">
+                                            <i class="fa fa-play"></i>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="episodes-description text-body">
+                                    </div>
+                                  </div>
+                                  <div class="e-item">
+                                    <div class="block-image position-relative">
+                                      <a href="#">
+                                        <img src="images/episodes/ce3.jpg" class="img-fluid" alt="">
+                                      </a>
+                                      <div class="episode-play-info">
+                                        <div class="episode-play">
+                                          <a href="#" tabindex="0">
+                                            <i class="fa fa-play"></i>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="episodes-description text-body">
+                                    </div>
+                                  </div>
+                                  <div class="e-item">
+                                    <div class="block-image position-relative">
+                                      <a href="#">
+                                        <img src="images/episodes/ce4.jpg" class="img-fluid" alt="">
+                                      </a>
+                                      <div class="episode-play-info">
+                                        <div class="episode-play">
+                                          <a href="#" tabindex="0">
+                                            <i class="fa fa-play"></i>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="episodes-description text-body">
+                                    </div>
+                                  </div>
+                                  <div class="e-item">
+                                    <div class="block-image position-relative">
+                                      <a href="#">
+                                        <img src="images/episodes/ce5.jpg" class="img-fluid" alt="">
+                                      </a>
+                                      <div class="episode-play-info">
+                                        <div class="episode-play">
+                                          <a href="#" tabindex="0">
+                                            <i class="fa fa-play"></i>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="episodes-description text-body">
+                                    </div>
+                                  </div>
+
+                                </div>
                               </div>
-                            </a>
-                            <h1 class="trending-text big-title text-uppercase">the Crown</h1>
-                            <div class="episodes-contens mt-4">
-                              <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
-                                <div class="e-item">
-                                  <div class="block-image position-relative">
-                                    <a href="#">
-                                      <img src="images/episodes/bbt3.jpg" class="img-fluid" alt="">
-                                    </a>
-                                    <div class="episode-play-info">
-                                      <div class="episode-play">
-                                        <a href="#" tabindex="0">
-                                          <i class="fa fa-play"></i>
-                                        </a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="episodes-description text-body">
-                                  </div>
+                            </div>
+                          </div>
+
+                          <div id="trending-data4" class="overlay-tab tab-pane fade">
+                            <div class="trending-info align-items-center w-100 animated fadeInUp">
+                              <a href="#" tabindex="0">
+                                <div class="channel-logo">
+                                  <img src="images/logo.png" class="c-logo" alt="">
                                 </div>
-                                <div class="e-item">
-                                  <div class="block-image position-relative">
-                                    <a href="#">
-                                      <img src="images/episodes/fe2.jpg" class="img-fluid" alt="">
-                                    </a>
-                                    <div class="episode-play-info">
-                                      <div class="episode-play">
-                                        <a href="#" tabindex="0">
-                                          <i class="fa fa-play"></i>
-                                        </a>
+                              </a>
+                              <h1 class="trending-text big-title text-uppercase">the Crown</h1>
+                              <div class="episodes-contens mt-4">
+                                <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                                  <div class="e-item">
+                                    <div class="block-image position-relative">
+                                      <a href="#">
+                                        <img src="images/episodes/bbt3.jpg" class="img-fluid" alt="">
+                                      </a>
+                                      <div class="episode-play-info">
+                                        <div class="episode-play">
+                                          <a href="#" tabindex="0">
+                                            <i class="fa fa-play"></i>
+                                          </a>
+                                        </div>
                                       </div>
                                     </div>
-                                  </div>
-                                  <div class="episodes-description text-body">
-                                  </div>
-                                </div>
-                                <div class="e-item">
-                                  <div class="block-image position-relative">
-                                    <a href="#">
-                                      <img src="images/episodes/m4.jpg" class="img-fluid" alt="">
-                                    </a>
-                                    <div class="episode-play-info">
-                                      <div class="episode-play">
-                                        <a href="#" tabindex="0">
-                                          <i class="fa fa-play"></i>
-                                        </a>
-                                      </div>
+                                    <div class="episodes-description text-body">
                                     </div>
                                   </div>
-                                  <div class="episodes-description text-body">
-                                  </div>
-                                </div>
-                                <div class="e-item">
-                                  <div class="block-image position-relative">
-                                    <a href="#">
-                                      <img src="images/episodes/pb3.jpg" class="img-fluid" alt="">
-                                    </a>
-                                    <div class="episode-play-info">
-                                      <div class="episode-play">
-                                        <a href="#" tabindex="0">
-                                          <i class="fa fa-play"></i>
-                                        </a>
+                                  <div class="e-item">
+                                    <div class="block-image position-relative">
+                                      <a href="#">
+                                        <img src="images/episodes/fe2.jpg" class="img-fluid" alt="">
+                                      </a>
+                                      <div class="episode-play-info">
+                                        <div class="episode-play">
+                                          <a href="#" tabindex="0">
+                                            <i class="fa fa-play"></i>
+                                          </a>
+                                        </div>
                                       </div>
                                     </div>
-                                  </div>
-                                  <div class="episodes-description text-body">
-                                  </div>
-                                </div>
-                                <div class="e-item">
-                                  <div class="block-image position-relative">
-                                    <a href="#">
-                                      <img src="images/episodes/n5.jpg" class="img-fluid" alt="">
-                                    </a>
-                                    <div class="episode-play-info">
-                                      <div class="episode-play">
-                                        <a href="#" tabindex="0">
-                                          <i class="fa fa-play"></i>
-                                        </a>
-                                      </div>
+                                    <div class="episodes-description text-body">
                                     </div>
                                   </div>
-                                  <div class="episodes-description text-body">
+                                  <div class="e-item">
+                                    <div class="block-image position-relative">
+                                      <a href="#">
+                                        <img src="images/episodes/m4.jpg" class="img-fluid" alt="">
+                                      </a>
+                                      <div class="episode-play-info">
+                                        <div class="episode-play">
+                                          <a href="#" tabindex="0">
+                                            <i class="fa fa-play"></i>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="episodes-description text-body">
+                                    </div>
+                                  </div>
+                                  <div class="e-item">
+                                    <div class="block-image position-relative">
+                                      <a href="#">
+                                        <img src="images/episodes/pb3.jpg" class="img-fluid" alt="">
+                                      </a>
+                                      <div class="episode-play-info">
+                                        <div class="episode-play">
+                                          <a href="#" tabindex="0">
+                                            <i class="fa fa-play"></i>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="episodes-description text-body">
+                                    </div>
+                                  </div>
+                                  <div class="e-item">
+                                    <div class="block-image position-relative">
+                                      <a href="#">
+                                        <img src="images/episodes/n5.jpg" class="img-fluid" alt="">
+                                      </a>
+                                      <div class="episode-play-info">
+                                        <div class="episode-play">
+                                          <a href="#" tabindex="0">
+                                            <i class="fa fa-play"></i>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="episodes-description text-body">
+                                    </div>
                                   </div>
                                 </div>
                               </div>
@@ -1809,30 +1829,35 @@
                         </div>
                       </div>
                     </div>
-                  </div>
                 </li>
                 <li>
                   <div class="tranding-block position-relative" style="background-image: url(images/trending/02.jpg);">
                     <div class="trending-custom-tab">
                       <div class="tab-title-info position-relative">
-                        <ul class="trending-pills d-flex nav nav-pills justify-content-center align-items-center text-center" role="tablist">
+                        <ul
+                          class="trending-pills d-flex nav nav-pills justify-content-center align-items-center text-center"
+                          role="tablist">
                           <li class="nav-item">
-                            <a href="#trending-data5" class="nav-link active show" data-toggle="pill" role="tab" aria-selected="true">
+                            <a href="#trending-data5" class="nav-link active show" data-toggle="pill" role="tab"
+                              aria-selected="true">
                               Overview
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data6" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data6" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Thumbnail
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data7" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data7" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Trailers
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data8" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data8" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Similiar Like This
                             </a>
                           </li>
@@ -1861,13 +1886,13 @@
                             </div>
                             <div class="p-btns">
                               <div class="d-flex align-items-center p-0">
-                                <a href="/Nerflix-website-main/Ticket.html" class="btn btn-hover mr-2" tabindex="0">
+                                <a href="/website-main/Ticket.html" class="btn btn-hover mr-2" tabindex="0">
                                   <i class="fa fa-play mr-2"></i>
                                   Book Now
                                 </a>
                                 <a href="#" class="btn btn-link" tabindex="0">
                                   <i class="fa fa-plus pr-2"></i>
-                                  My List 
+                                  My List
                                 </a>
                               </div>
                             </div>
@@ -2175,24 +2200,30 @@
                   <div class="tranding-block position-relative" style="background-image: url(images/trending/03.jpg);">
                     <div class="trending-custom-tab">
                       <div class="tab-title-info position-relative">
-                        <ul class="trending-pills d-flex nav nav-pills justify-content-center align-items-center text-center" role="tablist">
+                        <ul
+                          class="trending-pills d-flex nav nav-pills justify-content-center align-items-center text-center"
+                          role="tablist">
                           <li class="nav-item">
-                            <a href="#trending-data9" class="nav-link active show" data-toggle="pill" role="tab" aria-selected="true">
+                            <a href="#trending-data9" class="nav-link active show" data-toggle="pill" role="tab"
+                              aria-selected="true">
                               Overview
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data10" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data10" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Thumbnail
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data11" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data11" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Trailers
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data12" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data12" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Similiar Like This
                             </a>
                           </li>
@@ -2221,13 +2252,13 @@
                             </div>
                             <div class="p-btns">
                               <div class="d-flex align-items-center p-0">
-                                <a href="/Nerflix-website-main/Ticket.html" class="btn btn-hover mr-2" tabindex="0">
+                                <a href="/website-main/Ticket.html" class="btn btn-hover mr-2" tabindex="0">
                                   <i class="fa fa-play mr-2"></i>
                                   Book Now
                                 </a>
                                 <a href="#" class="btn btn-link" tabindex="0">
                                   <i class="fa fa-plus pr-2"></i>
-                                  My List 
+                                  My List
                                 </a>
                               </div>
                             </div>
@@ -2392,7 +2423,7 @@
                                       </div>
                                     </div>
                                   </div>
-                                  <div class="episodes-description text-body">                             
+                                  <div class="episodes-description text-body">
                                   </div>
                                 </div>
                                 <div class="e-item">
@@ -2535,24 +2566,30 @@
                   <div class="tranding-block position-relative" style="background-image: url(images/trending/04.jpg);">
                     <div class="trending-custom-tab">
                       <div class="tab-title-info position-relative">
-                        <ul class="trending-pills d-flex nav nav-pills justify-content-center align-items-center text-center" role="tablist">
+                        <ul
+                          class="trending-pills d-flex nav nav-pills justify-content-center align-items-center text-center"
+                          role="tablist">
                           <li class="nav-item">
-                            <a href="#trending-data13" class="nav-link active show" data-toggle="pill" role="tab" aria-selected="true">
+                            <a href="#trending-data13" class="nav-link active show" data-toggle="pill" role="tab"
+                              aria-selected="true">
                               Overview
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data14" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data14" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Thumbnail
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data15" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data15" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Trailers
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data16" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data16" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Similiar Like This
                             </a>
                           </li>
@@ -2593,7 +2630,7 @@
                             <div class="d-flex align-items-center text-white text-detail mb-4">
                               <span class="trending-year">Feb 2019</span>
                             </div>
-                              
+
                             <div class="episodes-contens mt-4">
                               <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
                                 <div class="e-item">
@@ -2881,24 +2918,30 @@
                   <div class="tranding-block position-relative" style="background-image: url(images/trending/05.jpg);">
                     <div class="trending-custom-tab">
                       <div class="tab-title-info position-relative">
-                        <ul class="trending-pills d-flex nav nav-pills justify-content-center align-items-center text-center" role="tablist">
+                        <ul
+                          class="trending-pills d-flex nav nav-pills justify-content-center align-items-center text-center"
+                          role="tablist">
                           <li class="nav-item">
-                            <a href="#trending-data17" class="nav-link active show" data-toggle="pill" role="tab" aria-selected="true">
+                            <a href="#trending-data17" class="nav-link active show" data-toggle="pill" role="tab"
+                              aria-selected="true">
                               Overview
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data18" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data18" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Thumbnail
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data19" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data19" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Trailers
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data20" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data20" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Similiar Like This
                             </a>
                           </li>
@@ -2927,13 +2970,13 @@
                             </div>
                             <div class="p-btns">
                               <div class="d-flex align-items-center p-0">
-                                <a href="/Nerflix-website-main/Ticket.html" class="btn btn-hover mr-2" tabindex="0">
+                                <a href="/website-main/Ticket.html" class="btn btn-hover mr-2" tabindex="0">
                                   <i class="fa fa-play mr-2"></i>
                                   Book Now
                                 </a>
                                 <a href="#" class="btn btn-link" tabindex="0">
                                   <i class="fa fa-plus pr-2"></i>
-                                  My List 
+                                  My List
                                 </a>
                               </div>
                             </div>
@@ -3242,24 +3285,30 @@
                   <div class="tranding-block position-relative" style="background-image: url(images/trending/06.jpg);">
                     <div class="trending-custom-tab">
                       <div class="tab-title-info position-relative">
-                        <ul class="trending-pills d-flex nav nav-pills justify-content-center align-items-center text-center" role="tablist">
+                        <ul
+                          class="trending-pills d-flex nav nav-pills justify-content-center align-items-center text-center"
+                          role="tablist">
                           <li class="nav-item">
-                            <a href="#trending-data21" class="nav-link active show" data-toggle="pill" role="tab" aria-selected="true">
+                            <a href="#trending-data21" class="nav-link active show" data-toggle="pill" role="tab"
+                              aria-selected="true">
                               Overview
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data22" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data22" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Thumbnail
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data23" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data23" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Trailers
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="#trending-data24" class="nav-link" data-toggle="pill" role="tab" aria-selected="false">
+                            <a href="#trending-data24" class="nav-link" data-toggle="pill" role="tab"
+                              aria-selected="false">
                               Similiar Like This
                             </a>
                           </li>
@@ -3288,13 +3337,13 @@
                             </div>
                             <div class="p-btns">
                               <div class="d-flex align-items-center p-0">
-                                <a href="/Nerflix-website-main/Ticket.html" class="btn btn-hover mr-2" tabindex="0">
+                                <a href="/website-main/Ticket.html" class="btn btn-hover mr-2" tabindex="0">
                                   <i class="fa fa-play mr-2"></i>
                                   Book Now
                                 </a>
                                 <a href="#" class="btn btn-link" tabindex="0">
                                   <i class="fa fa-plus pr-2"></i>
-                                  My List 
+                                  My List
                                 </a>
                               </div>
                             </div>
@@ -3632,9 +3681,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -3677,9 +3726,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -3722,9 +3771,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -3767,9 +3816,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -3812,9 +3861,9 @@
                       </div>
                       <div class="hover-buttons">
                         <span class="btn btn-hover iq-button">
-                          <i class="fa fa-play mr-1"><a href="/Nerflix-website-main/Ticket.html">
-                          Book Now
-                          </a></i>
+                          <i class="fa fa-play mr-1"><a href="/website-main/Ticket.html">
+                              Book Now
+                            </a></i>
                         </span>
                       </div>
                     </div>
@@ -3869,7 +3918,7 @@
             </div>
             <div class="widget text-left">
               <div class="textwidget">
-                <p><small>&#169; GG EZ  ALl Right Reserved</small></p>
+                <p><small>&#169; GG EZ ALl Right Reserved</small></p>
               </div>
             </div>
           </div>
@@ -3881,19 +3930,19 @@
               <li>
                 <a href="#">
                   <i>
-                  <fa class="fa fa-facebook"></fa>
+                    <fa class="fa fa-facebook"></fa>
                 </a>
               </li>
               <li>
                 <a href="#">
                   <i>
-                  <fa class="fa fa-youtube"></fa>
+                    <fa class="fa fa-youtube"></fa>
                 </a>
               </li>
               <li>
                 <a href="#">
                   <i>
-                  <fa class="fa fa-instagram"></fa>
+                    <fa class="fa fa-instagram"></fa>
                 </a>
               </li>
             </ul>
@@ -3906,6 +3955,7 @@
   </footer>
 
   <!-- js files  -->
+  <script src="/trailer-plugin/java.js"></script>
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -3914,7 +3964,10 @@
   <script src="js/select2.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/slick-animation.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
   <script src="main.js"></script>
 </body>
+
 </html>

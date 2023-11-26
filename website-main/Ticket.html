@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: #242333;
+  background-color: #000;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -24,6 +24,18 @@ body {
   font-family: "Lato", sans-serif;
   margin: 0;
 }
+.back-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+  }
 
 .movie-container {
   margin: 20px 0;
@@ -59,7 +71,7 @@ body {
 }
 
 .seat.selected {
-  background-color: green;
+  background-color: red;
 }
 
 .seat.sold {
@@ -122,18 +134,38 @@ p.text{
 }
 
 p.text span{
-    color: rgb(158, 248, 158);
+    color: red;
 }
+.btn {
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+    }
+a {
+  text-decoration: none;
+  color: white;
+}
+.back-button:hover{
+  color: rgb(0, 0, 0);
+}
+
     </style>
   </head>
   <body>
+    <a href="/website-main/index.html"><button class="back-button">Back</button></a>
     <div class="movie-container">
       <label style="margin-left: 20px;"> Select a movie:</label>
       <select id="movie">
-        <option value="200000">Godzilla vs Kong (200.000 VND)</option>
-        <option value="150000">Radhe (150.000 VND)</option>
-        <option value="250000">RRR (250.000 VND)</option>
-        <option value="100000">F9 (100.000 VND)</option>
+        <option value="200000">Avengers (200.000 VND)</option>
+        <option value="150000">Peaky Blinders (150.000 VND)</option>
+        <option value="250000">The Conjuring (250.000 VND)</option>
+        <option value="100000">Car 2 (100.000 VND)</option>
       </select>
       <!-- <select class="form-select" aria-label="Default select example" style="margin-left: 1px; width: 270px;">
         <option value="200000">Godzilla vs Kong (200.000 VND)</option>
@@ -227,6 +259,9 @@ p.text span{
       You have selected <span id="count">0</span> seat for a price of<span
         id="total" >0</span>
     </p>
+    <br><br>
+<a href="/website-main/Payment/Payment.html"><button class="btn">Book Now</button></a>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script>
   const container = document.querySelector(".container");
