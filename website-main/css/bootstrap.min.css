@@ -2898,6 +2898,7 @@ a.btn.disabled,fieldset:disabled a.btn {
 }
 
 .btn-link {
+  text-decoration: none;
   font-weight: 400;
   color: #007bff;
   background-color: transparent;
@@ -9100,7 +9101,7 @@ a.text-dark:focus,a.text-dark:hover {
 
   h2,h3 {
     page-break-after: avoid;
-  }@  page {
+  }@page {
     size: a3;
   }
 
